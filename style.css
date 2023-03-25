@@ -64,6 +64,7 @@ body {
   font-size: 0.8em;
   font-weight: 300;
 }
+
 .contactInfo {
   padding-top: 40px;
 }
@@ -84,6 +85,13 @@ body {
   margin: 10px 0;
   cursor: pointer;
 }
+.contactInfo ul li a {
+  text-decoration: none;
+}
+.contactInfo ul li a h4:hover {
+  background: #03a9f4;
+  text-decoration: none;
+}
 .contactInfo ul li .icon {
   display: inline-block;
   width: 30px;
@@ -93,6 +101,12 @@ body {
 .contactInfo ul li span {
   color: #fff;
   font-weight: 300;
+}
+.contactInfo ul li span a {
+  color: inherit;
+}
+.contactInfo ul li span a:hover {
+  color: #03a9f4;
 }
 .contactInfo.education li {
   margin-bottom: 15px;
@@ -143,6 +157,7 @@ body {
 }
 p {
   color: #333;
+  margin-bottom: 10px;
 }
 
 .about .box {
@@ -158,10 +173,21 @@ p {
   color: #848c90;
   font-weight: 600;
 }
+.about .box .year_company span {
+  font-size: 10px;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-style: italic;
+}
 .about .box .text h4 {
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
+}
+.about .box .text ul li {
+  color: #333;
+  margin: 5px 0 0 15px;
+  text-align: justify;
 }
 .skills .box {
   position: relative;
